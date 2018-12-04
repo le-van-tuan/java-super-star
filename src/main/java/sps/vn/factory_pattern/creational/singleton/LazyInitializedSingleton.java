@@ -1,4 +1,4 @@
-package sps.vn.factory_pattern.singleton;
+package sps.vn.factory_pattern.creational.singleton;
 
 public class LazyInitializedSingleton {
 
@@ -10,7 +10,7 @@ public class LazyInitializedSingleton {
         this.value = value;
     }
 
-    public static LazyInitializedSingleton getDataBaseConnection(String value) {
+    public static LazyInitializedSingleton getINSTANCE(String value) {
         if (INSTANCE == null) {
             INSTANCE = new LazyInitializedSingleton(value);
         }

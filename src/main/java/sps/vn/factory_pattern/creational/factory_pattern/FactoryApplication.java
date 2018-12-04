@@ -1,8 +1,8 @@
-package sps.vn.factory_pattern.factory_pattern;
+package sps.vn.factory_pattern.creational.factory_pattern;
 
-import sps.vn.factory_pattern.factory_pattern.factory.Creator;
-import sps.vn.factory_pattern.factory_pattern.impl.WebDialog;
-import sps.vn.factory_pattern.factory_pattern.impl.WindowsDialog;
+import sps.vn.factory_pattern.creational.factory_pattern.factory.Creator;
+import sps.vn.factory_pattern.creational.factory_pattern.impl.WebDialog;
+import sps.vn.factory_pattern.creational.factory_pattern.impl.WindowsDialog;
 
 public class FactoryApplication {
 

@@ -1,4 +1,4 @@
-package sps.vn.factory_pattern.factory_pattern.product;
+package sps.vn.factory_pattern.creational.factory_pattern.product;
 
 public interface Button {
 
