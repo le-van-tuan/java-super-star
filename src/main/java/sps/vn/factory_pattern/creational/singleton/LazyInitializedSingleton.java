@@ -1,5 +1,8 @@
 package sps.vn.factory_pattern.creational.singleton;
 
+/**
+ * Lazy initialized singleton - single thread!
+ */
 public class LazyInitializedSingleton {
 
     private static LazyInitializedSingleton INSTANCE;
@@ -10,7 +13,7 @@ public class LazyInitializedSingleton {
         this.value = value;
     }
 
-    public static LazyInitializedSingleton getINSTANCE(String value) {
+    public static LazyInitializedSingleton getInstance(String value) {
         if (INSTANCE == null) {
             INSTANCE = new LazyInitializedSingleton(value);
         }
