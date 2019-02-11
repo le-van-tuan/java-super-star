@@ -7,6 +7,9 @@ import vn.sps.design_pattern.chain_of_responsibility.processor.PasswordLengthMus
 import vn.sps.design_pattern.chain_of_responsibility.request.Password;
 
 public class ChainOfResponsibilityApplication {
+    /*
+    * https://medium.com/@alialhaddad/fetching-data-in-react-native-d92fb6876973
+    * */
     public static void main(String[] args) {
         Password password = new Password();
         password.setRawPassword("1234567890@");
