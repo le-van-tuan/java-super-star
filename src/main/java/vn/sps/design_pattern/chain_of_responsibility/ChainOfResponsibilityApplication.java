@@ -14,6 +14,7 @@ public class ChainOfResponsibilityApplication {
     /**
      * Authentication flow
      * https://reactnavigation.org/docs/en/2.x/auth-flow.html
+     * https://medium.com/the-react-native-log/building-an-authentication-flow-with-react-navigation-fb5de2203b5c
      * @param args
      */
     public static void main(String[] args) {
