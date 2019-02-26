@@ -10,6 +10,10 @@ public class ObserverApplication {
 
         editor.eventManager.subscribe("open", new MailListener("levantuan.itvn@gmail.com"));
         editor.eventManager.subscribe("open", new MailListener("nguyenTeo.test@gmail.com"));
+
+        editor.eventManager.unsubscribe("open", new MailListener("levantuan.itvn@gmail.com"));
+        editor.eventManager.unsubscribe("open", new MailListener("nguyenTeo.test@gmail.com"));
+
         editor.eventManager.subscribe("save", new SmsListener("0352194177"));
 
         editor.openFile("C:\\Users\\lvtuan\\Desktop\\SPS_Project\\Design Pattern\\pom.xml");

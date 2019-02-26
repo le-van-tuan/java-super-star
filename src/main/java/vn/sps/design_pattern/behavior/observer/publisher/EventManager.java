@@ -23,9 +23,9 @@ public class EventManager {
         listeners.add(listener);
     }
 
-    public void unscribe(String eventType, EventListener listener) {
+    public void unsubscribe(String eventType, EventListener listener) {
         List<EventListener> listeners = this.listener.get(eventType);
-        listeners.remove(listener);
+        listeners.removeIf(lt -> lt.subscriberInfo().equals(listener.subscriberInfo()));
     }
 
     public void notify(String eventType, File file) {

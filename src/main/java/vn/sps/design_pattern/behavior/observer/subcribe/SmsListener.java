@@ -14,4 +14,9 @@ public class SmsListener implements EventListener {
     public void onUpdate(String eventType, File file) {
         System.out.println(String.format("Sms to [%s] - Some one has perform action [%s] on file [%s]", this.phoneNumber, eventType, file.getName()));
     }
+
+    @Override
+    public String subscriberInfo() {
+        return this.phoneNumber;
+    }
 }
