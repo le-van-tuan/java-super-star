@@ -14,14 +14,12 @@ public class ThreadSafeSingleton {
     }
 
     public static ThreadSafeSingleton getInstance(String value) {
-        if (INSTANCE == null) {
-            /**
-             * This synchronized allow one thread at the time can access to this method.
-             */
-            synchronized (ThreadSafeSingleton.class){
-                if(INSTANCE == null){
-                    INSTANCE = new ThreadSafeSingleton(value);
-                }
+        /**
+         * This synchronized allow one thread at the time can access to this method.
+         */
+        synchronized (ThreadSafeSingleton.class) {
+            if (INSTANCE == null) {
+                INSTANCE = new ThreadSafeSingleton(value);
             }
         }
         return INSTANCE;
