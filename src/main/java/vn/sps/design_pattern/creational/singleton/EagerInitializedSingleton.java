@@ -5,7 +5,7 @@ package vn.sps.design_pattern.creational.singleton;
  */
 public class EagerInitializedSingleton {
 
-    private static EagerInitializedSingleton INSTANCE = new EagerInitializedSingleton();
+    private static final EagerInitializedSingleton INSTANCE = new EagerInitializedSingleton();
 
     public  String value;
 

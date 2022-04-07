@@ -32,4 +32,9 @@ public class EventManager {
         List<EventListener> listeners = this.listener.get(eventType);
         listeners.forEach(lt -> lt.onUpdate(eventType, file));
     }
+
+    public void test() {
+        System.out.println("test me...");
+        throw new NullPointerException("Error from test...");
+    }
 }

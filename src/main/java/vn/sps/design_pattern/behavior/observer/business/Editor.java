@@ -28,4 +28,9 @@ public class Editor {
     private void doSaveFile() {
         System.out.println("File has saved!");
     }
+
+    public static void main(String[] args) {
+        String text = "<4543543534>";
+        System.out.println(text.replaceAll("[<>]", ""));
+    }
 }

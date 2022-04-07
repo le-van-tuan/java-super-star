@@ -13,9 +13,9 @@ public class AtLeastOneSpecialCharacterProcessor extends BasePasswordValidatorHa
 
     @Override
     public void handleValidate(Password request) {
-        if(!request.getRawPassword().matches(".*[@#$%^&+=].*")){
+        if (!request.getRawPassword().matches(".*[@#$%^&+=].*")) {
             System.out.println("Password does not contain special character !!!");
-        }else{
+        } else {
             super.handle(request);
         }
     }

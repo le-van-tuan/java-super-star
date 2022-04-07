@@ -1,8 +1,9 @@
 package vn.sps.oops.inheritence;
 
-public class Animal {
+public abstract class Animal implements AnimalBehavior {
 
-    void bark() {
-        System.out.println("Animal are barking");
+    @Override
+    public void bark() {
+        System.out.println("Animal barking...");
     }
 }
