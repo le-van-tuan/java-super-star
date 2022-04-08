@@ -1,6 +1,11 @@
 package vn.sps.oops.inheritence;
 
 public class BaseAnimal extends Animal {
+
+    protected BaseAnimal(String name) {
+        super(name);
+    }
+
     protected void eat() {
         System.out.println("animal eating...");
     }

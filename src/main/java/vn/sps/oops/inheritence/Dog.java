@@ -4,7 +4,8 @@ public class Dog extends BaseAnimal {
 
     private int legs;
 
-    public Dog(int legs) {
+    public Dog(int legs, String name) {
+        super(name);
         this.legs = legs;
     }
 

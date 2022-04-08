@@ -6,7 +6,7 @@ import vn.sps.design_pattern.creational.factory_pattern.impl.WindowsDialog;
 
 public class FactoryApplication {
 
-    private static Creator creator;
+    private static final Creator creator;
 
     static {
         if (System.getProperty("os.name").equals("Windows 10")) {

@@ -1,1 +1,0 @@
-package vn.sps.design_pattern.behavior;
