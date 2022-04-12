@@ -14,4 +14,13 @@ public class GenericJson {
         } catch (JsonProcessingException ignored) {
         }
     }
+
+    public static <T> T deepCopy(Object source, Class<T> type) throws JsonProcessingException {
+        String jsonStr = objectMapper.writeValueAsString(source);
+        return objectMapper.readValue(jsonStr, type);
+    }
+
+    public <T> T deepCopy(Class<T> type) throws JsonProcessingException {
+        return deepCopy(this, type);
+    }
 }

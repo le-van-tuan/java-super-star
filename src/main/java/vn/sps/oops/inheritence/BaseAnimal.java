@@ -14,4 +14,8 @@ public class BaseAnimal extends Animal {
     public void bark() {
         System.out.println("BaseAnimal is barking...");
     }
+
+    protected final void finalMethod() {
+        System.out.println("final method");
+    }
 }
