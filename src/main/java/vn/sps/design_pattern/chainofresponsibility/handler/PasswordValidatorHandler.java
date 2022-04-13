@@ -1,4 +1,4 @@
-package vn.sps.design_pattern.chain_of_responsibility.handler;
+package vn.sps.design_pattern.chainofresponsibility.handler;
 
 public interface PasswordValidatorHandler<T> {
     /**

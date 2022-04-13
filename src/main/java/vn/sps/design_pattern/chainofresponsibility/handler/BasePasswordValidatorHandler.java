@@ -1,6 +1,6 @@
-package vn.sps.design_pattern.chain_of_responsibility.handler;
+package vn.sps.design_pattern.chainofresponsibility.handler;
 
-import vn.sps.design_pattern.chain_of_responsibility.request.Password;
+import vn.sps.design_pattern.chainofresponsibility.request.Password;
 
 public abstract class BasePasswordValidatorHandler {
 

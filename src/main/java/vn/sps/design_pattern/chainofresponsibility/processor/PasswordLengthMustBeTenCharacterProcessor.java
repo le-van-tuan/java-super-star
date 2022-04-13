@@ -1,8 +1,8 @@
-package vn.sps.design_pattern.chain_of_responsibility.processor;
+package vn.sps.design_pattern.chainofresponsibility.processor;
 
-import vn.sps.design_pattern.chain_of_responsibility.handler.BasePasswordValidatorHandler;
-import vn.sps.design_pattern.chain_of_responsibility.handler.PasswordValidatorHandler;
-import vn.sps.design_pattern.chain_of_responsibility.request.Password;
+import vn.sps.design_pattern.chainofresponsibility.handler.BasePasswordValidatorHandler;
+import vn.sps.design_pattern.chainofresponsibility.handler.PasswordValidatorHandler;
+import vn.sps.design_pattern.chainofresponsibility.request.Password;
 
 public class PasswordLengthMustBeTenCharacterProcessor extends BasePasswordValidatorHandler implements PasswordValidatorHandler<Password> {
     @Override

@@ -1,10 +1,10 @@
-package vn.sps.design_pattern.chain_of_responsibility;
+package vn.sps.design_pattern.chainofresponsibility;
 
-import vn.sps.design_pattern.chain_of_responsibility.handler.PasswordValidatorHandler;
-import vn.sps.design_pattern.chain_of_responsibility.processor.AtLeastOneSpecialCharacterProcessor;
-import vn.sps.design_pattern.chain_of_responsibility.processor.EmptyPasswordProcessor;
-import vn.sps.design_pattern.chain_of_responsibility.processor.PasswordLengthMustBeTenCharacterProcessor;
-import vn.sps.design_pattern.chain_of_responsibility.request.Password;
+import vn.sps.design_pattern.chainofresponsibility.handler.PasswordValidatorHandler;
+import vn.sps.design_pattern.chainofresponsibility.processor.AtLeastOneSpecialCharacterProcessor;
+import vn.sps.design_pattern.chainofresponsibility.processor.EmptyPasswordProcessor;
+import vn.sps.design_pattern.chainofresponsibility.processor.PasswordLengthMustBeTenCharacterProcessor;
+import vn.sps.design_pattern.chainofresponsibility.request.Password;
 
 public class ChainOfResponsibilityApplication {
     /*
