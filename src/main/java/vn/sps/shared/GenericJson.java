@@ -1,4 +1,4 @@
-package vn.sps.oops.shared;
+package vn.sps.shared;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

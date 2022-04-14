@@ -1,6 +1,6 @@
 package vn.sps.oops.encapsulation;
 
-import vn.sps.oops.shared.GenericJson;
+import vn.sps.shared.GenericJson;
 
 /**
  * <p>

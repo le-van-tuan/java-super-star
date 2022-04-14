@@ -1,6 +1,6 @@
 package vn.sps.oops.trashtest;
 
-import vn.sps.oops.shared.GenericJson;
+import vn.sps.shared.GenericJson;
 
 public class Car extends GenericJson {
 

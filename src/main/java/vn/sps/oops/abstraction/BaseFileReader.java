@@ -20,4 +20,8 @@ public abstract class BaseFileReader {
     }
 
     protected abstract String mapFileLine(String line);
+
+    public static void openFile() {
+        System.out.println("File is opening...");
+    }
 }
