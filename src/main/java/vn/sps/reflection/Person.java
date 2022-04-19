@@ -3,7 +3,7 @@ package vn.sps.reflection;
 import vn.sps.shared.GenericJson;
 
 @LogMe(withTime = true)
-public class Person extends GenericJson {
+public class Person extends GenericJson implements PersonActivity {
 
     private String name;
 
@@ -31,5 +31,20 @@ public class Person extends GenericJson {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public void walk() {
+
+    }
+
+    @Override
+    public void swim() {
+
+    }
+
+    @Override
+    public void jump() {
+
     }
 }

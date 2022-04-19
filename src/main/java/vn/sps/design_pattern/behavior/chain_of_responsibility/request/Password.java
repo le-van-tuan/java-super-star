@@ -1,4 +1,4 @@
-package vn.sps.design_pattern.chain_of_responsibility.request;
+package vn.sps.design_pattern.behavior.chain_of_responsibility.request;
 
 public class Password {
 
