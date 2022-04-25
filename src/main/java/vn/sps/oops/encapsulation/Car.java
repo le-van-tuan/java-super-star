@@ -9,12 +9,21 @@ public class Car extends Vehicle {
 
     public double price;
 
+    protected Car(int totalSeats) {
+        this.totalSeats = totalSeats;
+    }
+
     void defaultAccessModifier() {
         System.out.println("default");
     }
 
     protected void test() {
+        defaultAccessModifier();
         super.shortVehicleName();
         super.printVehicleName();
+    }
+
+    protected void staticProtected() {
+        System.out.println("Static protected...");
     }
 }

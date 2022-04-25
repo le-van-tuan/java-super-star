@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public abstract class BaseFileReader {
+public abstract class BaseFileReader implements FileService {
 
     protected Path filePath;
 

@@ -12,4 +12,14 @@ public class LowerCaseFileReader extends BaseFileReader {
     protected String mapFileLine(String line) {
         return line.toLowerCase();
     }
+
+    @Override
+    public String getFileName() {
+        return null;
+    }
+
+    @Override
+    public String getFileLocation() {
+        return null;
+    }
 }
