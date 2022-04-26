@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sps.vn.design-pattern</groupId>
-    <artifactId>design-pattern</artifactId>
+    <artifactId>springfranework-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <description>Learning and reviewing Spring Framework</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
