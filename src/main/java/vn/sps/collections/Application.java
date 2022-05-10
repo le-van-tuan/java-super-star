@@ -44,5 +44,20 @@ public class Application {
         integerQueue.forEach(System.out::println);
         integerQueue.addFirst(0);
         integerQueue.forEach(System.out::println);
+
+        LinkedList<String> test = new LinkedList<>();
+        test.add("1");
+        test.add("2");
+        System.out.println("LinkedList");
+        test.remove(1);
+        System.out.println(test.size());
+
+        Car car = new Car("Vinfast");
+        Car.F1(car);
+        System.out.println(car.getBranchName());
+        Car.F2(car.getBranchName());
+        System.out.println(car.getBranchName());
+        Car.F3(car);
+        System.out.println(car.getBranchName());
     }
 }
