@@ -16,6 +16,15 @@ public class Book {
 
     private int totalPages;
 
+    public Book() {
+    }
+
+    public Book(String name, String author, int totalPages) {
+        this.name = name;
+        this.author = author;
+        this.totalPages = totalPages;
+    }
+
     public long getId() {
         return id;
     }
